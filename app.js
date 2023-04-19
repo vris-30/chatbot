@@ -39,7 +39,7 @@ async function runSample(msg, projectId = 'nc-bot-actl') {
     //Create a new session
 
     const sessionClient = new dialogflow.SessionsClient({
-        keyFilename:"nc-bot-actl-9ea4d75233a5.json"
+        keyFilename:"must be your own"
     });
     const sessionPath = sessionClient.sessionPath(projectId, sessionId);
 
